@@ -3876,7 +3876,7 @@ header
 	}
 	.effective-content__title
 	{
-		font-size: 6.66667vw;
+		font-size: 6.46667vw;
 		font-weight: 700;
 		letter-spacing: .01em;
 		margin-bottom: 5.6vw;
@@ -4866,7 +4866,7 @@ header
     font-size: 1.6vw;
 }
 .content_de .intro-content__list-txt  {
-    font-size: 0.88vw;
+    font-size: 0.875vw;
 }
 .content_de .intro-content__foot-title {
     font-size: 2vw;
@@ -4989,13 +4989,29 @@ header
 		font-size: 1.1vw;
 	}
 
+    .content_de .works-content__txt {
+        font-size: 1vw;
+    }
+
 	.content_de .revolutional-content__txt ul li {
-		font-size: 1.3vw;
+		font-size: 1vw;
 	}
 
 	.content_de .revolutional-content__txt p {
-		font-size: 0.9vw;
+		font-size: 0.8vw;
 	}
+
+    .content_de .fight-content__subtitle {
+        font-size: 1.5vw;
+    }
+
+    .content_de .fight-content__list-info {
+        font-size: 1vw;
+    }
+
+    .content_de .fight-content__rx {
+        left: 43vw;
+    }
 
 	.content_de .revolutional-content__txt ul li:not(:last-child) {
 		margin-bottom: 0.35208vw;
