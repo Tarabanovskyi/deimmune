@@ -85,7 +85,7 @@ function order() {
 
   function output() {
     sp.textContent = `$${shiping}`
-    save.textContent = `You Save $${sale}`
+    save.textContent = `Du sparst $${sale}`
     retail.textContent = `EINKAUFSPREIS: $${retailText}`
 
     yt.textContent = `$${(price).toFixed(2)}`
