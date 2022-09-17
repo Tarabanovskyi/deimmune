@@ -391,6 +391,17 @@ summary
 	src: url(../fonts/RobotoCondensed-Bold.eot);
 	src: url(../fonts/RobotoCondensed-Bold.woff2) format("woff2"),url(../fonts/RobotoCondensed-Bold.woff) format("woff");
 }
+
+@font-face
+{
+	font-display: swap;
+	font-family: "BebasNeue";
+	font-style: "normal";
+	font-weight: 400;
+	src: url(../fonts/BebasNeue-Regular.eot);
+	src: url(../fonts/BebasNeue-Regular.woff2) format("woff2"),url(../fonts/BebasNeue-Regular.woff) format("woff");
+}
+
 *,::after,::before
 {
 	box-sizing: border-box;
@@ -4843,8 +4854,10 @@ header
 }
 
 .content_de .intro-content__title-1 {
-    font-size: 4vw;
-    margin: 0.5vw 0 0 0;
+	font-size: 5.5vw;
+    margin: 0.5vw 0 -2vw 0;
+    font-family: "BebasNeue";
+    font-weight: 600;
 }
 .content_de .intro-content__suptitle {
     font-size: 1.77917vw;
@@ -5144,7 +5157,9 @@ header
 		font-size: 16px;
 	}
     .content_de .intro-content__title-1 {
-        font-size: 5.2vw;
+        font-size: 7.2vw;
+		margin: 0.5vw 0 0vw 0;
+		line-height: 90%;
     }
     .content_de .intro-content__suptitle {
         margin-bottom: -0.6vw;
