@@ -4992,6 +4992,9 @@ header
     font-size: 2.13951vw;
 }
 @media (max-height:377px) { 
+	.content_de .intro-content__title-1 {
+		font-size: 5.5vw;
+	}
 	.content_de .order-item__name {
 		font-size: 8px;
 	}
